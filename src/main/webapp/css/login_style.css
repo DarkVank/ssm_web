@@ -1,0 +1,37 @@
+/* login_right style */
+.location0{
+    text-align: center;
+    color:gray;
+
+}
+.location-center{
+   margin-left:55px;
+
+}
+
+.local_top{
+    margin-top:10%;
+}
+.local_right{
+    margin-left:250px;
+}
+.local_left{
+    margin-left:-80px;
+}
+
+.bg{
+    box-shadow: 1px 2px gray;
+}
+
+.form_local{
+    width:95%;
+}
+
+/* position */
+.login_position{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    z-index: -1;
+}
+
