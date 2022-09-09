@@ -26,5 +26,16 @@
     <mvc:default-servlet-handler/>
 
 <!--    资源拦截-->
-
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+<!--            排除操作-->
+            <mvc:exclude-mapping path="/user/login"/>
+            <mvc:exclude-mapping path="/css/*"/>
+            <mvc:exclude-mapping path="/images/*"/>
+            <mvc:exclude-mapping path="/js/*"/>
+            <mvc:exclude-mapping path="/layui/**"/>
+            <bean class="com.itheima.interceptor.PrivilegeInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

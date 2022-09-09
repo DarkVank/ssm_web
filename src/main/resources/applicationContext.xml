@@ -15,4 +15,6 @@
 
 <!--    service bean-->
     <bean id="save" class="com.itheima.service.AccountService"></bean>
+
+    <bean id="login" class="com.itheima.service.UserService"></bean>
 </beans>

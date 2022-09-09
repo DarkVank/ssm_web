@@ -1,6 +1,7 @@
 package com.itheima.service;
 
 import com.itheima.domain.Account;
+import com.itheima.domain.User;
 import com.itheima.mapper.AccountMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -54,4 +55,5 @@ public class AccountService implements AccountMapper {
         }
 
     }
+
 }
